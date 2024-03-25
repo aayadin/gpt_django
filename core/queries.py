@@ -1,12 +1,10 @@
 import os
 
-import pytest
 from dotenv import load_dotenv
 from openai import OpenAI
 from openai.types.chat import ChatCompletion
 
 from core.models import Templater
-
 
 load_dotenv()
 
